@@ -21,7 +21,7 @@ private-cookies = ["cookie/secure"]
 [dependencies]
 smallvec = "1.0"
 percent-encoding = "1"
-hyper = { version = "0.10.13", default-features = false }
+hyper = { git = "https://github.com/mobilecoinofficial/hyper.git", rev = "3109103b57fa1bbc3a1349ff6b196e5d2554aba9", default-features = false }
 time = "0.1"
 indexmap = "1.0"
 rustls = { version = "0.14", optional = true }
